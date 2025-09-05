@@ -1,0 +1,111 @@
+/* 🌸 General Layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    /* Gradient background na gumagana agad */
+    background: linear-gradient(135deg, #fdf6f0, #ffe5d9, #fce2ce);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 🌸 Header */
+h2 {
+    text-align: center;
+    color: #6b4226;
+    margin-top: 20px;
+}
+
+/* 🌸 Navigation Bar */
+.navbar {
+    background: #6b4226;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #ffd699;
+}
+
+/* 🌸 Buttons & Links */
+a, button {
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 5px;
+    background: #d2691e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+a:hover, button:hover {
+    background: #a0522d;
+}
+
+/* 🌸 Form Design */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    background: rgba(255, 248, 240, 0.95); /* medyo transparent para kita yung bg */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #6b4226;
+}
+
+form input[type="text"],
+form input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* 🌸 Table Styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+table th {
+    background: #6b4226;
+    color: #fff;
+    padding: 10px;
+}
+
+table td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+footer {
+    text-align: center;
+    background: #6b4226;
+    color: #fff;
+    padding: 10px;
+    margin-top: 30px;
+}
